@@ -1,0 +1,79 @@
+nav{
+    background-color: rgb(130, 130, 133);
+    padding:20px;
+    color: rgb(198, 194, 194);
+}
+
+nav::after{
+display: block;
+clear:both;
+content: "";
+
+}
+
+
+.topnav {
+ 
+    background-color: #999;
+    float: right;
+}
+
+.topnav a:hover{
+    background-color: gray;
+    color: blue;
+}
+
+.topnav a.active {
+    background-color: rgb(130, 128, 128);
+    color: rgb(160, 17, 17);
+    padding: 10px;
+
+}
+
+
+#contactForm {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+
+.profilepic {
+    position: relative;
+    float: right;
+}
+
+.profiletext {
+    position: relative;
+    float: right;
+}
+
+footer {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.startrekimg, .snorkleimg, .dinoimg, .hikingimg, .dogimg{
+    float: left;
+}
+
+.header{
+    font-size: 24px;
+}
+
+.container{
+   position: relative;
+}
+
